@@ -1,6 +1,19 @@
-.Devicon {
-  height: 50px;
-  width: 50px;
+.devicon-container {
   display: flex;
-  margin-right: 5px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  padding: 10px 0;
+  width: 100%;
 }
+
+.Devicon {
+  display: flex;
+}
+
+.Devicon img {
+  flex: 0 0 auto;
+  width: 75px;
+  max-width: 100%;
+  margin-right: 10px;
+}
+
