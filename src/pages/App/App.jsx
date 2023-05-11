@@ -2,6 +2,7 @@ import {useState} from "react";
 import { Routes, Route } from 'react-router-dom';
 import NavBar from '../../components/NavBar/NavBar';
 import Resume from '../Resume/Resume';
+import Skills from '../Skills/Skills';
 import './App.css';
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <NavBar />
       <h1>Curtis</h1>
       <Resume />
+      <Skills />
     </main>
   );
 }

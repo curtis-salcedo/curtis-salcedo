@@ -1,4 +1,4 @@
-import "./Job.css"
+import "./Jobs.css"
 
 export default function InkCoffee() {
   return (

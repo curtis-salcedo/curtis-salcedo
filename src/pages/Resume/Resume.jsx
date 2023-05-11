@@ -1,5 +1,5 @@
-import InkCoffee from '../../components/Job/InkCoffee';
-import Adt from '../../components/Job/Adt';
+import InkCoffee from '../../components/Jobs/InkCoffee';
+import Adt from '../../components/Jobs/Adt';
 import "./Resume.css"
 
 
