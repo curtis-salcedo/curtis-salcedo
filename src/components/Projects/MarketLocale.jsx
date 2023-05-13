@@ -1,21 +1,20 @@
 import { SiMongodb, SiBootstrap, SiJavascript, SiExpress, SiNodedotjs  } from "react-icons/si";
+import "./Projects.css"
 
 export default function MarketLocale() {
   return (
     <>
-    <div class="card border-dark mb-3">
-      <div class="card-header">Market Locale</div>
-      <div class="card-body">
-        <div class="card-text">A web application to buy and sell locally made products.</div>
-        <div class="card-footer">
+    <div className="projectCard">
+      <div className="projectTitle">Market Locale</div>
+      <div className="projectDescription">A web application to buy and sell locally made products.</div>
+        <div className="projectFooter">
         <SiMongodb />
         <SiBootstrap />
         <SiJavascript />
         <SiExpress />
         <SiNodedotjs />
         </div>
-        </div>
-    </div>
+      </div>
     </>
   )
 }

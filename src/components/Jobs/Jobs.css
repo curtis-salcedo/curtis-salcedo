@@ -1,28 +1,34 @@
-.card-container {
+.jobContainer {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
 }
 
-.card {
-  padding: 2vmin;
-  font-size: 3vmin;
-  margin-bottom: 2vmin;
-}
-
-.card-title {
-  font-size: 5vmin;
+.jobTitle {
+  font-size: xx-large;
   font-weight: bold;
   text-align: center;
 }
 
-.company {
-  font-size: 5vmin;
+.jobCompany {
+  font-size: x-large;
   text-align: center;
 }
 
-.sub-title {
+.jobSubTitle {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-size: medium;
+  padding-right: 10px;
+  padding-left: 10px;
 }
+
+.jobCard {
+  display: flex;
+  justify-content: left;
+  padding: 2vmin;
+  font-size: medium;
+  margin: 0 auto;
+}
+

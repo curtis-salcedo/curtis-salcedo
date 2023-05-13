@@ -7,10 +7,17 @@ import "./Portfolio.css"
 export default function Resume() {
   return (
     <>
-    <div class="container">
-      <GolfBuddy />
-      <ApplicationTracker />
-      <MarketLocale />
+    <div className="portfolioContainer">
+
+      <div className="featureProjectContainer">
+      </div>
+
+      <div className="projectContainer">
+        <GolfBuddy />
+        <ApplicationTracker />
+        <MarketLocale />
+      </div>
+
     </div>
     </>
   )

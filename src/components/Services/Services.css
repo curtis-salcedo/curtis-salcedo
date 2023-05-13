@@ -1,0 +1,22 @@
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to bottom right, yellow,orange, yellow);
+  width: 500px;
+  height: 250px;
+  border-radius: 1vmin;
+  margin: 2vmin;
+  padding: 4vmin;
+}
+
+.serviceTitle {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 2vmin;
+}
+
+.serviceDescription {
+  font-size: small;
+}

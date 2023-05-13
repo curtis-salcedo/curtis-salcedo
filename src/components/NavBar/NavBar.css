@@ -1,0 +1,26 @@
+.navbar {
+  position: fixed relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  margin-right: 20px;
+  margin-left: 80px;
+}
+
+.logo {
+  color: burlywood;
+}
+
+.navLinks a {
+
+  text-decoration: none;
+  color: burlywood;
+  font-size: 20px;
+}
+
+.navLink {
+  margin-right: 12px; /* Adjust the value as needed to control the spacing */
+}
+

@@ -1,13 +1,13 @@
 import { SiMongodb, SiBootstrap, SiJavascript, SiExpress, SiNodedotjs  } from "react-icons/si";
+import "./Projects.css"
 
 export default function ApplicationTracker() {
   return (
     <>
-    <div class="card border-dark mb-3">
-      <div class="card-header">Application Tracker</div>
-      <div class="card-body">
-        <div class="card-text">A web application to track your job applications</div>
-        <div class="card-footer">
+    <div className="projectCard">
+      <div className="projectTitle">Application Tracker</div>
+        <div className="projectDescription">A web application to track your job applications</div>
+        <div className="projectFooter">
         <SiMongodb />
         <SiBootstrap />
         <SiJavascript />
@@ -15,7 +15,6 @@ export default function ApplicationTracker() {
         <SiNodedotjs />
         </div>
         </div>
-    </div>
     </>
   )
 }

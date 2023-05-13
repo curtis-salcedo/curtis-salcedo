@@ -1,3 +1,15 @@
 .portfolioContainer {
-  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+.projectContainer {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+}
+
+.featuredProjectContainer {
+  
 }

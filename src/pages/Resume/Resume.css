@@ -1,4 +1,5 @@
 .jobContainer {
+  height: 80vh;
   display: flex;
   border: solid navy .5vmin;
   width: 75%;

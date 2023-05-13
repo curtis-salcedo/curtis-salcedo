@@ -1,19 +1,48 @@
-.devicon-container {
+.servicesContainer {
   display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  padding: 10px 0;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 90vh;
+  flex-flow: row wrap;
+  background-color: whitesmoke;
 }
 
-.Devicon {
+.carousel-container {
+  overflow: hidden;
+}
+
+.skill-carousel {
   display: flex;
+  animation: carousel-animation 20s linear infinite;
+  margin-bottom: 5vmin;
 }
 
-.Devicon img {
-  flex: 0 0 auto;
-  width: 75px;
-  max-width: 100%;
-  margin-right: 10px;
+@keyframes carousel-animation {
+  0% {
+    opacity: .5;
+    transform: translateX(0);
+  }
+  33% {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+  66% {
+    opacity: 1;
+    transform: translateX(-75%);
+  }
+  100% {
+    opacity: .5;
+    transform: translateX(0);
+  }
 }
 
+.devicon {
+  height: 100px;
+  width: 100px;
+}
+
+.skills-carousel img {
+  width: 100px;
+  height: 100px;
+}

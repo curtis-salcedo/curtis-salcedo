@@ -1,0 +1,32 @@
+.summaryContainer {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.summaryName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.summaryTitle {
+
+}
+
+.summaryImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 50%;
+}
+
+.hireMeButton {
+  margin-top: 5vmin;
+  width: 250px;
+  height: 60px;
+}
