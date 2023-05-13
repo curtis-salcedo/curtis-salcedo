@@ -7,7 +7,7 @@ import "./Portfolio.css"
 export default function Resume() {
   return (
     <>
-    <div className="portfolioContainer">
+    <div id="portfolio" className="portfolioContainer">
 
       <div className="featureProjectContainer">
       </div>

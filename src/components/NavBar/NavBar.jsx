@@ -9,11 +9,11 @@ export default function NavBar() {
         <h1>CS</h1>
       </div>
       <div className="navLinks">
-        <Link to="#home" className="navLink">Home</Link>
-        <Link to="#aboutme" className="navLink">About Me</Link>
-        <Link to="#resume" className="navLink">Services</Link>
-        <Link to="#portfolio" className="navLink">Portfolio</Link>
-        <Link to="#resume" className="navLink">Experience</Link>
+        <a className="navLink" href="#home">Home</a>
+        <a className="navLink" href="#aboutme">About Me</a>
+        <a className="navLink" href="#services">Services</a>
+        <a className="navLink" href="#portfolio">Portfolio</a>
+        <a className="navLink" href="#experience">Experience</a>
       </div>
     </nav>
   )

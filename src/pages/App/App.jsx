@@ -6,12 +6,13 @@ import AboutMe from '../AboutMe/AboutMe';
 import Resume from '../Resume/Resume';
 import Skills from '../Skills/Skills';
 import Portfolio from '../Portfolio/Portfolio';
+import Footer from '../../components/Footer/Footer';
 import './App.css';
 
 export default function App() {
   return (
     <main className="App">
-      <div className="nav">
+      <div id="home" className="nav">
         <NavBar />
       </div>
       <Summary />
@@ -19,6 +20,7 @@ export default function App() {
       <Skills />
       <Portfolio />
       <Resume />
+      <Footer />
     </main>
   );
 }

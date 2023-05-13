@@ -8,7 +8,7 @@ import "./Skills.css"
 export default function Skills() {
   return (
     <>
-      <div className="carousel-container">
+      <div id="services" className="carousel-container">
         <div className="skill-carousel">
           <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt=""/>
           <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />

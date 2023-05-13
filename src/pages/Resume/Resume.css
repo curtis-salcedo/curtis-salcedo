@@ -1,10 +1,8 @@
-.jobContainer {
-  height: 80vh;
+.resumeContainer {
+  height: 70vh;
   display: flex;
-  border: solid navy .5vmin;
-  width: 75%;
-  margin: 2vmin auto;
-  border-radius: 2vmin;
+  background-color: whitesmoke;
+  align-items: center;
 }
 
 .container {

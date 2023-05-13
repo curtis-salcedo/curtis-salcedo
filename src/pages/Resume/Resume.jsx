@@ -7,19 +7,21 @@ import "./Resume.css";
 export default function Resume() {
   return (
     <>
-      <h3>Professional Experience</h3>
-      <Carousel>
+    <div id="experience" className="experienceContainer">
+      <h3>Experiences</h3>
+      <Carousel variant="dark">
         <Carousel.Item>
-        <div className="jobContainer">
+        <div className="resumeContainer">
           <InkCoffee />
         </div>
         </Carousel.Item>
         <Carousel.Item>
-        <div className="jobContainer">
+        <div className="resumeContainer">
           <Adt />
         </div>
         </Carousel.Item>
       </Carousel>
+    </div>
     </>
   );
 }
