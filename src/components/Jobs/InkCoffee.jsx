@@ -3,14 +3,21 @@ import "./Jobs.css"
 export default function InkCoffee() {
   return (
     <>
-    <div className="jobCard">
+    <div id="sectionId" class="container">
 
-    <h3>ink! Coffee Company, Denver, CO | Director of Retail Operations&nbsp;&nbsp;<small>06/2015 - 10/2022</small></h3>
-        <p>Led and managed up to 16 retail store locations with operational ownership responsibilities, ensuring the delivery of exceptional customer service and achieving business targets.</p>
-        <p>Implemented modern technologies to maintain and monitor inventory levels, resulting in increased efficiency and cost savings.</p>
-        <p>Designed and implemented unique standard operating procedures (SOPs) for each location, resulting in improved performance metrics and increased profitability.</p>
-        <p>Developed and led a team of 50+ members, including managers and associates, fostering a collaborative and inclusive work culture.</p>
-        <p>Assisted in the successful launch of new store locations from the ground up.</p>
+    <div class="card-container">
+    <div class="card-title">Director of Retail Operations</div>
+    <div class="company">ink! Coffee Company</div>
+      <div class="sub-title">
+        <p>Denver, CO</p>
+        <p>06/2015 - 10/2022</p>
+      </div>
+        <div class="card">Managed and led a portfolio of 16 retail store locations, ensuring exceptional customer service and achieving business targets</div>
+        <div class="card">Implemented modern inventory technologies to enhance efficiency and reduce costs</div>
+        <div class="card">Designed and implemented location-specific SOPs, resulting in improved performance metrics and increased profitability</div>
+        <div class="card">Led and developed a diverse team of 50+ members, fostering a collaborative and inclusive work culture</div>
+        <div class="card">Played a key role in successfully launching new store locations from inception</div>
+      </div>
     </div>
   </>
   )

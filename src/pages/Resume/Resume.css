@@ -1,5 +1,16 @@
 .jobContainer {
-  background-color: red;
   display: flex;
-  flex-direction: row wrap;
+  border: solid navy .5vmin;
+  width: 75%;
+  margin: 2vmin auto;
+  border-radius: 2vmin;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+h3 {
+  text-align: center;
 }

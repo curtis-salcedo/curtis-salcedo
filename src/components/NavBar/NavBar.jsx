@@ -5,7 +5,7 @@ export default function NavBar() {
     <nav>
       <Link to="/">Home</Link>
       &nbsp; | &nbsp;
-      <Link to="/">Resume</Link>
+      <Link to="#resume" smooth={true} duration={0}>Scroll to Section</Link>
       &nbsp; | &nbsp;
       <Link to="/">Portfolio</Link>
     </nav>

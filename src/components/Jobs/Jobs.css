@@ -1,3 +1,28 @@
-.jobCard {
-  background-color: aquamarine;
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 2vmin;
+  font-size: 3vmin;
+  margin-bottom: 2vmin;
+}
+
+.card-title {
+  font-size: 5vmin;
+  font-weight: bold;
+  text-align: center;
+}
+
+.company {
+  font-size: 5vmin;
+  text-align: center;
+}
+
+.sub-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
