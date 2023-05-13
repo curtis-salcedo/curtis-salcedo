@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ee02bfb.css",
-    "main.js": "/static/js/main.656e2449.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/index.html",
-    "main.4ee02bfb.css.map": "/static/css/main.4ee02bfb.css.map",
-    "main.656e2449.js.map": "/static/js/main.656e2449.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/curtis-salcedo/my-website/static/css/main.078af798.css",
+    "main.js": "/curtis-salcedo/my-website/static/js/main.92288b1e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/curtis-salcedo/my-website/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/curtis-salcedo/my-website/index.html",
+    "main.078af798.css.map": "/curtis-salcedo/my-website/static/css/main.078af798.css.map",
+    "main.92288b1e.js.map": "/curtis-salcedo/my-website/static/js/main.92288b1e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/curtis-salcedo/my-website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ee02bfb.css",
-    "static/js/main.656e2449.js"
+    "static/css/main.078af798.css",
+    "static/js/main.92288b1e.js"
   ]
 }
