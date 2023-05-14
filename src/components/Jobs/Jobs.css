@@ -3,8 +3,8 @@
   flex-direction: column;
   border: solid 1px navy;
   border-radius: 1vmin;
-  width: 60%;
-  height: 80%;
+  width: 60vw;
+  height: 60vh;
   margin: 0 auto;
   background-color: white;
 }
@@ -33,7 +33,7 @@
   flex-flow: row wrap;
   justify-content: center;
   padding: 2vmin;
-  height: 75%;
+  height: 70vh;
   font-size: medium;
 }
 
@@ -43,7 +43,7 @@
   align-items: center;
   margin: 1vmin;
   margin: 0 auto;
-  height: 45%;
+  height: 18vh;
   width: 45%;
   text-align: center;
   border: solid navy 1px;

@@ -3,20 +3,49 @@
   flex-direction: column;
   justify-content: center;
   background: linear-gradient(to bottom right, yellow,orange, yellow);
-  width: 500px;
-  height: 250px;
+  width: 475px;
+  height: 350px;
   border-radius: 1vmin;
   margin: 2vmin;
   padding: 4vmin;
 }
 
 .serviceTitle {
-  font-size: xx-large;
+  font-size: 32px;
   font-weight: bold;
   text-align: left;
   margin-top: 2vmin;
 }
 
 .serviceDescription {
-  font-size: small;
+  margin-top: 2vmin;
+  font-size: 16px;
+}
+
+@media (max-width: 975px) {
+  .summaryContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .serviceCard {
+    background: linear-gradient(to bottom right, yellow,orange, yellow);
+    border-radius: 1vmin;
+    margin: 10px;
+    width: 400px;
+    height: 285px;
+  }
+
+  .serviceTitle {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 2vmin;
+  }
+
+  .serviceDescription {
+    display: none;
+  }
 }

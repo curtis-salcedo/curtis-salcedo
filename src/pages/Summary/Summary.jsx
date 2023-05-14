@@ -5,9 +5,9 @@ export default function Summary() {
     <>
     <section className="summaryContainer">
       <div className="summaryName">
-        <h1>I'm Curtis</h1>
+        <div className="summaryIntro">I'm Curtis</div>
         <div className="summaryTitle">
-          <h4>Full Stack Developer</h4>
+          <div>Full Stack Developer</div>
           <button className="hireMeButton">Hire Me</button>
         </div>
       </div>

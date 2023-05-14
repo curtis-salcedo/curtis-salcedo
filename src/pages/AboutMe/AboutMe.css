@@ -9,13 +9,13 @@
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  width: 50%;
+  width: 50vw;
 }
 .aboutMeTitle {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: 40px;
+  margin-right: 5vmin;
 }
 .aboutMeDescription {
   display: flex;

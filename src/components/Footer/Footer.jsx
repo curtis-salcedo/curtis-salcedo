@@ -14,10 +14,10 @@ export default function Footer() {
           <label htmlFor="">Contact Info</label>
           <div className="footerIconLinks">
           <IconContext.Provider value={{ size: '2em', color: 'blue' }}>
-            <a href="https://www.linkedin.com/your-profile-url" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
+            <a href="https://www.linkedin.com/in/curtis-salcedo" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
           </IconContext.Provider>
           <IconContext.Provider value={{ size: '2em', color: 'black' }}>
-            <a href="https://www.linkedin.com/your-profile-url" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
+            <a href="https://github.com/curtis-salcedo" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
           </IconContext.Provider>
           </div>
           <div className="contactLocation"><BiCurrentLocation /> Westminster, CO</div>
