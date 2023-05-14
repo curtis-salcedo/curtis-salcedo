@@ -1,0 +1,12 @@
+.portfolioContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.projectContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

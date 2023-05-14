@@ -1,0 +1,55 @@
+.servicesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 90vh;
+  flex-flow: row wrap;
+  background-color: whitesmoke;
+}
+
+.carousel-container {
+  overflow: hidden;
+}
+
+.skill-carousel {
+  display: flex;
+  animation: carousel-animation 20s linear infinite;
+  margin-bottom: 5vmin;
+}
+
+@keyframes carousel-animation {
+  0% {
+    opacity: .5;
+    transform: translateX(0);
+  }
+  33% {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+  66% {
+    opacity: 1;
+    transform: translateX(-75%);
+  }
+  100% {
+    opacity: .5;
+    transform: translateX(0);
+  }
+}
+
+.devicon {
+  height: 100px;
+  width: 100px;
+}
+
+.skills-carousel img {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 1080px) {  
+  .skill-carousel {
+    display:none
+  }
+
+}

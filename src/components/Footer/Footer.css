@@ -1,0 +1,30 @@
+.footerContainer {
+  height: 25vh;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vmin;
+
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+
+}
+
+.contactInfo label {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.footerIconLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 8vw;
+}

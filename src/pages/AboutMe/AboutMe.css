@@ -1,0 +1,41 @@
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 60vh;
+}
+.aboutMeContent {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 50vw;
+}
+.aboutMeTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 5vmin;
+}
+.aboutMeDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aboutMeButtons {
+  display: flex;
+  justify-content: left;
+  margin-top: 2vmin;
+}
+
+.portfolioButton {
+  margin-right: 1vmin;
+  width: 175px;
+  height: 60px;
+}
+
+.resumeButton {
+  margin-left: 1vmin;
+  width: 175px;
+  height: 60px;
+}
