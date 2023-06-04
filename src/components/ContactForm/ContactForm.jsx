@@ -7,7 +7,7 @@ export default function ContactForm() {
     <div className='ContactFormContainer'>
 
       <form className='ContactForm' action="https://getform.io/f/1b989789-3008-47a5-95e4-39216774a434" method="POST">
-      <div className='ContactFormTitle'>Contact Me</div>
+      {/* <div className='ContactFormTitle'>Contact Me</div> */}
         <div className='ContactFormArea'>
 
           <div className='ContactFormName'>

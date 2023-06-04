@@ -1,15 +1,18 @@
-.footerContainer {
+.FooterContainer {
+  margin-top: 5vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: var(--primary-color);
+  width: 100vw;
 }
 
-.contactContainer {
+.ContactContainer {
   display: flex;
   margin-top: 2vh;
 }
 
-.contactInfo {
+.ContactInfo {
   display: flex;
   flex-direction: row;
   font-size: 2vh;
@@ -25,52 +28,68 @@
 }
 
 .FooterName {
+  font-size: 6vh;
+  font-weight: bold;
+}
+
+.ContactInfo label {
   font-size: 2vh;
   font-weight: bold;
 }
 
-.contactInfo label {
-  font-size: 2vh;
-  font-weight: bold;
-}
-
-.footerIconLinks {
+.FooterIconLinks {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-.footerIconLinks a {
+.FooterIconLinks a {
   margin-right: 1vw;
 }
 
 @media (max-width: 940px) {
-  .footerContainer {
-    height: 20vh;
-  }
-  
-  .contactContainer {
+  .FooterContainer {
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    margin-top: 1em;
+    background-color: var(--primary-color);
+    width: 100vw;
+    margin-top: 5vh;
   }
-  
-  .contactInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: large;
-  }
-  
-  .contactInfo label {
-    font-size: 2em;
-    font-weight: bold;
-  }
-  
-  .footerIconLinks {
+
+  .ContactContainer {
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 20vw;
+  }
+
+  .ContactInfo {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+
+  .FooterMainInfo {
+    margin: 0 auto;
+  }
+
+  .FooterName {
+    margin: 0 auto;
+    font-size: 5vmin;
+    margin-top: 2vh;
+  }
+
+  .FooterIconLinks {
+    margin: 0 auto;
+  }
+
+  .FooterIconLinks a {
+    margin: 0 auto;
+  }
+
+  .MobileFooterIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
   }
 }

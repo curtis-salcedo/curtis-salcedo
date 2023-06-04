@@ -1,8 +1,8 @@
-.JobContainer {
+.JobCard {
   width: 60vw
 }
 
-.JobCard {
+.JobContainer {
   display: flex;
   flex-direction: column;
   border-radius: 1vmin;
@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 
-.JobCard:hover {
+.JobContainer:hover {
   background-color: var(--accent-color-1);
 }
 
@@ -56,8 +56,8 @@
   justify-content: space-around;
   align-items: center;
   margin: 1vmin;
-  height: 12vh;
-  width: 45%;
+  height: 20vh;
+  width: 20vw;
   text-align: center;
   border: solid navy 1px;
   border-radius: 1vmin;
@@ -65,18 +65,94 @@
   background-color: whitesmoke;
 }
 
-
+.ExperienceTitle {
+  font-size: 4vmin;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
 
 
 @media (max-width: 940px) {
-  .jobContainer {
-    width: 90vw;
-    height: 30vh;
-    justify-content: space-between;
+  .ExperienceContainer {
+    margin-top: 5vh;
   }
 
-  .jobCard {
-    font-size: auto;
+  .JobContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1vmin;
+    border: solid 1px navy;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+
+  .JobCard {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 95vw;
+    height: 8vh;
+  }
+  
+  
+  .JobCardTop {
+    text-align: left;
+    width: 60vw;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .JobCardBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 3vmin;
+  }
+
+  .JobCardCompany {
+    width: 30vw;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .JobCardBottom div {
+    width: 20vw;
+  }
+  
+  .JobTitle {
+    font-size: 4vmin;
+    text-align: left;
+    margin-left: 2vw;
+  }
+  
+  .JobDescriptions {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    margin: 0 auto;
+    margin-bottom: .5vh;
+  }
+  
+  .JobDescriptions div {
+    height: 10vh;
+    font-size: 3.5vmin;
+    width: auto;
+    margin: 0 auto;
+    margin-top: .25vh;
+  }
+  
+  .ExperienceTitle {
+    display: none;
+  }
+
+  .JobDate {
     display: none;
   }
 }

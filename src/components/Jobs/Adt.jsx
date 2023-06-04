@@ -14,9 +14,9 @@ export default function Adt() {
 
   return (
       <>
-      <div className="JobCard">      
+      <div className="JobContainer">      
   
-        <div onClick={() => handleShowDetails()} className="JobContainer">
+        <div onClick={() => handleShowDetails()} className="JobCard">
   
           <div className="JobCardTop">
             <div className="JobTitle">Sales Rep</div>
@@ -24,8 +24,8 @@ export default function Adt() {
   
           <div className="JobCardBottom">
             <div className="JobCompany">ADT Security</div>
-            <div>Aurora, CO</div>
-            <div>06/2014 - 06/2015</div>
+            <div className="JobLocation">Aurora, CO</div>
+            <div className="JobDate">06/2014 - 06/2015</div>
           </div>
         </div>
   

@@ -8,8 +8,8 @@ import "./Resume.css";
 export default function Resume() {
   return (
     <>
-    <div id="experience" className="experienceContainer">
-        <div className="SectionTitle">Experiences</div>        
+    <div id="experience" className="ExperienceContainer">
+      <div className="ExperienceTitle">Experiences</div>        
       <div className="ResumeContainer">
         <div className="ResumeComponents">
           <DHPace />

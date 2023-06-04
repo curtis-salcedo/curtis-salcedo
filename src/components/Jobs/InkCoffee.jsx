@@ -14,9 +14,9 @@ export default function InkCoffee() {
 
   return (
     <>
-    <div className="JobCard">      
+    <div className="JobContainer">      
 
-      <div onClick={() => handleShowDetails()} className="JobContainer">
+      <div onClick={() => handleShowDetails()} className="JobCard">
 
         <div className="JobCardTop">
           <div className="JobTitle">Director of Operations</div>
@@ -24,8 +24,8 @@ export default function InkCoffee() {
 
         <div className="JobCardBottom">
           <div className="JobCompany">ink! Coffee Company</div>
-          <div>Denver, CO</div>
-          <div>06/2015 - 10/2022</div>
+          <div className="JobLocation">Denver, CO</div>
+          <div className="JobDate">06/2015 - 10/2022</div>
         </div>
       </div>
 

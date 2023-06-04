@@ -44,7 +44,7 @@
   margin: 1vmin;
   margin: 0 auto;
   height: 18vh;
-  width: 45%;
+  width: 18vw;
   text-align: center;
   border: solid navy 1px;
   border-radius: 1vmin;
@@ -55,7 +55,7 @@
 
 @media (max-width: 940px) {
   .jobContainer {
-    width: 90vw;
+    width: 100vw;
     height: 30vh;
     justify-content: space-between;
   }

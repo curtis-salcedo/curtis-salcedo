@@ -31,7 +31,7 @@
 input, textarea {
   border-radius: .25vmin;
   border: .15vmin solid var(--primary-color);
-  font-size: 2vmin;
+  font-size: 3vmin;
 }
 
 .ContactMessage {
@@ -57,5 +57,66 @@ input, textarea {
   border: none;
   background-color: burlywood;
   color: white;
+}
 
+@media (max-width: 940px) {
+  .ContactFormContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 0 2vh 0;
+  }
+  
+  .ContactFormTitle {
+    display: none;
+  }
+  
+  .ContactForm {
+    margin: 0 auto;
+  }
+  
+  .ContactFormName {
+    margin: 0 auto;
+
+  }
+  
+  .ContactFormName input {
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    border-radius: .25vmin;
+    border: .15vmin solid var(--primary-color);
+    font-size: 4vmin;
+  }
+  
+  .ContactMessage {
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    resize: none;
+  }
+  
+  .ContactForm button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+  }
+  
+  .ContactFormArea {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+  }
+  
+  .ContactFormButton {
+    width: 50vw;
+    height: 6vh;
+    border: none;
+    border-radius: 2vmin;
+    background-color: var(--accent-color-1);
+    color: white;
+    margin: 0 auto;
+  }
 }

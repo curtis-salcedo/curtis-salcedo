@@ -39,7 +39,7 @@
     color: white;
     font-size: 2.5em;
     font-weight: bold;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -75,7 +75,6 @@
     flex-direction: row;
     justify-content: start;
     align-items: left;
-    width: 100vw;
     margin: 0 auto;
     margin-left: 5vw;
   }

@@ -14,9 +14,9 @@ export default function DHPace() {
 
   return (
   <>
-    <div className="JobCard">      
+    <div className="JobContainer">      
 
-      <div onClick={() => handleShowDetails()} className="JobContainer">
+      <div onClick={() => handleShowDetails()} className="JobCard">
 
         <div className="JobCardTop">
           <div className="JobTitle">Dispatch Manager</div>
@@ -24,8 +24,8 @@ export default function DHPace() {
 
         <div className="JobCardBottom">
           <div className="JobCompany">DH Pace</div>
-          <div>Denver, CO</div>
-          <div>10/2022 - 03/2023</div>
+          <div className="JobLocation">Denver, CO</div>
+          <div className="JobDate">10/2022 - 03/2023</div>
         </div>
       </div>
 
