@@ -2,23 +2,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  height: 90vh;
   flex-flow: row wrap;
-  background-color: whitesmoke;
 }
 
 .carousel-container {
   overflow: hidden;
 }
 
-.skill-carousel {
+/* .skill-carousel {
   display: flex;
   animation: carousel-animation 20s linear infinite;
-  margin-bottom: 5vmin;
-}
+} */
 
-@keyframes carousel-animation {
+/* @keyframes carousel-animation {
   0% {
     opacity: .5;
     transform: translateX(0);
@@ -35,21 +31,34 @@
     opacity: .5;
     transform: translateX(0);
   }
-}
+} */
 
 .devicon {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
-.skills-carousel img {
+/* .skills-carousel img {
   width: 100px;
   height: 100px;
-}
+} */
 
-@media (max-width: 1080px) {  
+@media (max-width: 940px) {
+  .servicesContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+  }
+
   .skill-carousel {
-    display:none
+    display: none;
+  }
+
+  .body {
+    
   }
 
 }

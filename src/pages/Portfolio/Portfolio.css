@@ -2,11 +2,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh;
 }
 
 .projectContainer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+@media (max-width: 940px) {
+  .portfolioContainer {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 50vh;
+    width: 100vw;
+    overflow-x: auto;
+  }
+
+  .projectContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 0 auto;
+  }
 }

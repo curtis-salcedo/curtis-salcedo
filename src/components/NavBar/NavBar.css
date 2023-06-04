@@ -1,24 +1,94 @@
-.navbar {
-  position: fixed relative;
-  width: 100vw;
-  background-color: white;
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 940px;
+  top: 0;
   z-index: 999;
-  margin-right: 2vw;
-  margin-left: 2vw;
+  margin-right: 2em;
+  margin-left: 2em;
 }
 
-.logo {
+.Logo {
   color: burlywood;
+  font-size: 3em;
+  font-weight: bold;
 }
 
-.navLinks a {
-
+.NavLinks a {
   text-decoration: none;
   color: burlywood;
   font-size: 20px;
 }
 
-.navLink {
-  margin-right: 3vmin;
+.NavLink {
+  margin-right: 32px;
+}
+
+@media (max-width: 940px) {
+  .NavBar {
+    background-color: var(--primary-color);
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+  }
+  
+  .Logo {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    margin: 0;
+  }
+
+  .MobileNavMenu {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 2vh;
+    justify-content: center;
+  }
+  
+  .MobileLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--accent-color-1) solid .15vmin;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    height: 5vh;
+    color: black;
+    margin: 1vmin;
+    width: 40vw;
+    border-radius: 2vmin;
+  }
+
+  .HamburgerMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: left;
+    width: 100vw;
+    margin: 0 auto;
+    margin-left: 5vw;
+  }
+  
+  .HamburgerMenu.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: left;
+    width: 100vw;
+    margin: 0 auto;
+    margin-left: 5vw;
+  }
+  
 }
 

@@ -1,41 +1,105 @@
-.aboutMe {
+.AboutMe {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 60vh;
+  height: 50vh;
 }
-.aboutMeContent {
+.AboutMeContent {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
   width: 50vw;
 }
-.aboutMeTitle {
+.AboutMeTitle {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 3em;
+  font-weight: bold;
   margin-right: 5vmin;
 }
-.aboutMeDescription {
+.AboutMeDescription {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.aboutMeButtons {
+.AboutMeButtons {
   display: flex;
   justify-content: left;
   margin-top: 2vmin;
 }
 
-.portfolioButton {
+.PortfolioButton {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
   margin-right: 1vmin;
   width: 175px;
   height: 60px;
 }
 
-.resumeButton {
+.ResumeButton {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
   margin-left: 1vmin;
   width: 175px;
   height: 60px;
+}
+
+@media (max-width: 940px) {
+  .AboutMe {
+    background-color: var(--accent-color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+  }
+  .AboutMeContent {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: auto;
+  }
+  .AboutMeTitle {
+    display: none;
+  }
+
+  .AboutMeDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .AboutMeButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: .5em;
+    margin-bottom: 2vh;
+  }
+  
+  .PortfolioButton {
+    margin-right: .5em;
+    width: 10em;
+    height: 3em;
+    border: black .1vmin solid;
+    background-color: var(--primary-color);
+    color: black;
+  }
+  
+  .ResumeButton {
+    margin-left: .5em;
+    width: 10em;
+    height: 3em;
+    border: black .1vmin solid;
+    background-color: var(--primary-color);
+    color: black;
+  }
 }

@@ -1,18 +1,30 @@
 import React from 'react';
 import InkCoffee from '../../components/Jobs/InkCoffee';
 import Adt from '../../components/Jobs/Adt';
-import Carousel from 'react-bootstrap/Carousel';
+import DHPace from '../../components/Jobs/DHPace';
+// import Carousel from 'react-bootstrap/Carousel';
 import "./Resume.css";
 
 export default function Resume() {
   return (
     <>
     <div id="experience" className="experienceContainer">
-      <h3>Experiences</h3>
-      <Carousel variant="dark">
-        <Carousel.Item>
-        <div className="resumeContainer">
+        <div className="SectionTitle">Experiences</div>        
+      <div className="ResumeContainer">
+        <div className="ResumeComponents">
+          <DHPace />
+        </div>
+        <div className="ResumeComponents">
           <InkCoffee />
+        </div>
+        <div className="ResumeComponents">
+          <Adt />
+        </div>
+      </div>
+      {/* <Carousel variant="dark">
+        <Carousel.Item>
+          <InkCoffee />
+        <div className="resumeContainer">
         </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -20,7 +32,7 @@ export default function Resume() {
           <Adt />
         </div>
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
     </div>
     </>
   );

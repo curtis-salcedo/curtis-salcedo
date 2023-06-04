@@ -1,65 +1,85 @@
-.summaryContainer {
+.SummaryContainer {
   display: flex;
   flex-flow: row wrap;
-  height: 100vh;
   justify-content: space-around;
-  padding: 20vmin;
   align-items: center;
-  background-color: whitesmoke;
+  width: 940px;
 }
 
-.summaryName {
+.SummaryName {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  width: 300px;
 }
 
-.summaryIntro {
-  font-size: 8vh;
+.SummaryIntro {
+  font-size: 70px;
   font-weight: bold;
+  width: 300px;
 }
 
-.summaryTitle {
+.SummaryTitle {
   font-size: x-large;
+  width: 400px;
 }
 
-.summaryImageContainer {
+.SummaryImageContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vmin;
+  margin-top: 2vh;
+  height: 400px;
+  width: 400px;
 }
 
-.hireMeButton {
-  margin-top: 5vmin;
-  width: 250px;
+.HireMeButton {
+  width: 200px;
   height: 60px;
+  margin-top: 20px;
+  border: none;
+  background-color: burlywood;
+  color: white;
 }
 
-@media (max-width: 975px) {
-  .summaryContainer {
-    height: 70vh;
-    background-color: beige;
+@media (max-width: 940px) {
+  .SummaryContainer {
     display: flex;
+    justify-content: center;
     flex-direction: column-reverse;
-    padding: 0;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+  }
+  
+  .SummaryName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
 
-  .summaryName {
-    font-size: x-large;
+  .SummaryIntro {
+    font-size: 2.75em;
   }
   
-  .summaryTitle {
-  
+  .SummaryTitle {
+    font-size: 1.5em;
   }
   
-  .summaryImageContainer {
+  .SummaryImageContainer {
+    height: 70vw;
+    width: 70vw;
+  }
 
+  .SummaryImageContainer img {
+    height: 70vw;
+    width: 70vw;
+    border-radius: 10vmin;
   }
-  
-  .hireMeButton {
-    width: 200px;
-    height: 50px;
+
+  .HireMeButton {
+    display: none;
   }
 }

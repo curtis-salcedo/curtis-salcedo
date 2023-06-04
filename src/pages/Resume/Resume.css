@@ -1,15 +1,32 @@
-.resumeContainer {
-  height: 70vh;
+.ResumeContainer {
   display: flex;
-  background-color: whitesmoke;
   align-items: center;
+  flex-direction: column;
 }
 
-.container {
+.ResumeComponents {
+  margin-bottom: 1vh;
   display: flex;
   flex-flow: row wrap;
 }
 
 h3 {
   text-align: center;
+}
+
+@media (max-width: 940px) {
+  .resumeContainer {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  h3 {
+    text-align: center;
+  }
 }

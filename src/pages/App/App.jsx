@@ -7,20 +7,24 @@ import Resume from '../Resume/Resume';
 import Skills from '../Skills/Skills';
 import Portfolio from '../Portfolio/Portfolio';
 import Footer from '../../components/Footer/Footer';
+import { ViewportProvider } from "../../components/ViewportContext/ViewportContext";
 import './App.css';
 
 export default function App() {
+
   return (
-    <main className="App">
-      <div id="home" className="nav">
-        <NavBar />
-      </div>
-      <Summary />
-      <AboutMe />
-      <Skills />
-      <Portfolio />
-      <Resume />
-      <Footer />
-    </main>
+    <ViewportProvider>
+      <main className="App">
+          <div id="home" className="nav">
+            <NavBar />
+          </div>
+          <Summary />
+          <AboutMe />
+          <Skills />
+          <Portfolio />
+          <Resume />
+          <Footer />
+      </main>
+    </ViewportProvider>
   );
 }

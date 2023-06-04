@@ -1,0 +1,61 @@
+.ContactFormContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactFormTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vmin;
+  font-weight: bold;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactFormName {
+  display: flex;
+  flex-direction: row;
+}
+
+.ContactFormName input {
+  margin-right: .5vw;
+  margin-left: .5vw;
+}
+
+input, textarea {
+  border-radius: .25vmin;
+  border: .15vmin solid var(--primary-color);
+  font-size: 2vmin;
+}
+
+.ContactMessage {
+  margin-top: 1vmin;
+  resize: none;
+}
+
+.ContactForm button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactFormArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactFormButton {
+  width: 200px;
+  height: 50px;
+  margin: 2vh;
+  border: none;
+  background-color: burlywood;
+  color: white;
+
+}

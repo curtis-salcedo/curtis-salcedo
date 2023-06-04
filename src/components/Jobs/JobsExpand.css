@@ -1,0 +1,82 @@
+.JobContainer {
+  width: 60vw
+}
+
+.JobCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1vmin;
+  border: solid 1px navy;
+  cursor: pointer;
+}
+
+.JobCard:hover {
+  background-color: var(--accent-color-1);
+}
+
+.JobCardTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1vh;
+}
+
+.JobCardBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 2.5vmin;
+  margin-bottom: 1vh;
+}
+
+.JobCardBottom div {
+  width: 215px;
+}
+
+.JobTitle {
+  font-size: 4vmin;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.JobDescriptions {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 60vw;
+  margin-bottom: 1vh;
+}
+
+.JobDescriptions div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1vmin;
+  height: 12vh;
+  width: 45%;
+  text-align: center;
+  border: solid navy 1px;
+  border-radius: 1vmin;
+  padding: .5vw;
+  background-color: whitesmoke;
+}
+
+
+
+
+@media (max-width: 940px) {
+  .jobContainer {
+    width: 90vw;
+    height: 30vh;
+    justify-content: space-between;
+  }
+
+  .jobCard {
+    font-size: auto;
+    display: none;
+  }
+}

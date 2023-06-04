@@ -2,16 +2,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(to bottom right, yellow,orange, yellow);
-  width: 475px;
-  height: 350px;
+  background: linear-gradient(to bottom right, var(--accent-color-1), var(--accent-color-2));
+  width: 400px;
+  height: 300px;
   border-radius: 1vmin;
   margin: 2vmin;
   padding: 4vmin;
 }
 
 .serviceTitle {
-  font-size: 32px;
+  font-size: 2em;
   font-weight: bold;
   text-align: left;
   margin-top: 2vmin;
@@ -19,30 +19,37 @@
 
 .serviceDescription {
   margin-top: 2vmin;
-  font-size: 16px;
+  font-size: 1em;
 }
 
-@media (max-width: 975px) {
+@media (max-width: 940px) {
   .summaryContainer {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    overflow: hidden;
+    flex-direction: row;
   }
 
   .serviceCard {
-    background: linear-gradient(to bottom right, yellow,orange, yellow);
-    border-radius: 1vmin;
-    margin: 10px;
-    width: 400px;
-    height: 285px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: none;
+    border-radius: 2vmin;
+    margin: .25em;
+    width: 20em;
+    height: 5em;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  .icon {
+    height: .5em;
+    width: .5em;
   }
 
   .serviceTitle {
-    font-size: 32px;
+    font-size: 1em;
     font-weight: bold;
     text-align: left;
-    margin-top: 2vmin;
   }
 
   .serviceDescription {

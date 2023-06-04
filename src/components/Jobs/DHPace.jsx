@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./JobsExpand.css"
 
-export default function InkCoffee() {
+export default function DHPace() {
   const [show, setShow] = useState(false)
 
   function handleShowDetails() {
@@ -13,19 +13,19 @@ export default function InkCoffee() {
   }
 
   return (
-    <>
+  <>
     <div className="JobCard">      
 
       <div onClick={() => handleShowDetails()} className="JobContainer">
 
         <div className="JobCardTop">
-          <div className="JobTitle">Director of Operations</div>
+          <div className="JobTitle">Dispatch Manager</div>
         </div>
 
         <div className="JobCardBottom">
-          <div className="JobCompany">ink! Coffee Company</div>
+          <div className="JobCompany">DH Pace</div>
           <div>Denver, CO</div>
-          <div>06/2015 - 10/2022</div>
+          <div>10/2022 - 03/2023</div>
         </div>
       </div>
 

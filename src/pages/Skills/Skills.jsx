@@ -8,7 +8,7 @@ import "./Skills.css"
 export default function Skills() {
   return (
     <>
-      <div id="services" className="carousel-container">
+      {/* <div id="services" className="carousel-container">
         <div className="skill-carousel">
           <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt=""/>
           <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
@@ -29,8 +29,8 @@ export default function Skills() {
           <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
           <img className="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
         </div>
-      </div>
-    <h3>Services</h3>
+      </div> */}
+    <div className="SectionTitle">Services</div> 
     <div className="servicesContainer">
       <FullStack />
       <WebDevelopment />

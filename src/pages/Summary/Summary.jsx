@@ -1,20 +1,21 @@
 import "./Summary.css"
 
 export default function Summary() {
+
   return (
     <>
-    <section className="summaryContainer">
-      <div className="summaryName">
-        <div className="summaryIntro">I'm Curtis</div>
-        <div className="summaryTitle">
+    <div className="SummaryContainer">
+      <div className="SummaryName">
+        <div className="SummaryIntro">I'm Curtis</div>
+        <div className="SummaryTitle">
           <div>Full Stack Developer</div>
-          <button className="hireMeButton">Hire Me</button>
+          <button className="HireMeButton">Hire Me</button>
         </div>
       </div>
-      <div className="summaryImageContainer">
-        <img src="https://i.imgur.com/cMijoSw.png" alt=""/>
+      <div className="SummaryImageContainer">
+        <img src="https://i.imgur.com/cMijoSw.png" />
       </div>
-    </section>
+    </div>
 
     </>
   )

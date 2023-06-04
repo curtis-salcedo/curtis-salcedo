@@ -52,3 +52,16 @@
   font-size: medium;
   background-color: whitesmoke;
 }
+
+@media (max-width: 940px) {
+  .jobContainer {
+    width: 90vw;
+    height: 30vh;
+    justify-content: space-between;
+  }
+
+  .jobCard {
+    font-size: auto;
+    display: none;
+  }
+}
