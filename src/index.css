@@ -6,6 +6,10 @@
   --color-5: #75c8ae;
 } 
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
