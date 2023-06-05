@@ -8,12 +8,17 @@ import "./Resume.css";
 export default function Resume() {
   return (
     <>
+    <div className="borderOne">
+    <div className="borderTwo">
+    <div className="borderThree">
+    <div className="borderFour">
+    <div className="borderFive">
+    <div className="SectionTitle">Experiences</div>        
     <div id="experience" className="ExperienceContainer">
-      <div className="ExperienceTitle">Experiences</div>        
       <div className="ResumeContainer">
-        <div className="ResumeComponents">
+        {/* <div className="ResumeComponents">
           <DHPace />
-        </div>
+        </div> */}
         <div className="ResumeComponents">
           <InkCoffee />
         </div>
@@ -33,6 +38,11 @@ export default function Resume() {
         </div>
         </Carousel.Item>
       </Carousel> */}
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
     </>
   );

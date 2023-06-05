@@ -1,5 +1,14 @@
+.ExperienceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2vh;
+}
+
 .ResumeContainer {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -8,25 +17,24 @@
   margin-bottom: 1vh;
   display: flex;
   flex-flow: row wrap;
-}
-
-h3 {
-  text-align: center;
+  align-items: center;
 }
 
 @media (max-width: 940px) {
-  .resumeContainer {
-    height: 70vh;
+  .ExperienceContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .ResumeContainer {
     display: flex;
     align-items: center;
   }
   
-  .container {
+  .ResumeComponents {
     display: flex;
     flex-flow: row wrap;
-  }
-  
-  h3 {
-    text-align: center;
   }
 }

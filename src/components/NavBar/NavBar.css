@@ -3,22 +3,43 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 940px;
   top: 0;
   z-index: 999;
-  margin-right: 2em;
-  margin-left: 2em;
+  margin-right: 50px;
+  margin-left: 100px;
 }
 
+.borderOne {
+  border-bottom: 8px solid var(--color-1);
+  width: 100vw;
+}
+.borderTwo {
+  border-bottom: 8px solid var(--color-2);
+  width: 100vw;
+}
+.borderThree {
+  border-bottom: 8px solid var(--color-3);
+  width: 100vw;
+}
+.borderFour {
+  width: 100vw;
+  border-bottom: 8px solid var(--color-4);
+}
+.borderFive {
+  border-bottom: 8px solid var(--color-5);
+  width: 100vw;
+}
+
+
 .Logo {
-  color: burlywood;
+  color: var(--color-1);
   font-size: 3em;
   font-weight: bold;
 }
 
 .NavLinks a {
   text-decoration: none;
-  color: burlywood;
+  color: var(--color-1);
   font-size: 20px;
 }
 
@@ -28,7 +49,7 @@
 
 @media (max-width: 940px) {
   .NavBar {
-    background-color: var(--primary-color);
+    background-color: var(--color-1);
     display: flex;
     width: 100vw;
     height: 10vh;
@@ -36,7 +57,7 @@
   }
   
   .Logo {
-    color: white;
+    color: var(--color-3);
     font-size: 2.5em;
     font-weight: bold;
     position: absolute;
@@ -51,6 +72,7 @@
     display: flex;
     flex-flow: row wrap;
     margin-top: 2vh;
+    margin-bottom: 2vh;
     justify-content: center;
   }
   
@@ -58,10 +80,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: var(--accent-color-1) solid .15vmin;
+    border: var(--color-1) solid .15vmin;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: var(--color-3);
     font-size: 1em;
     height: 5vh;
     color: black;
@@ -73,8 +95,9 @@
   .HamburgerMenu {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: left;
+
     margin: 0 auto;
     margin-left: 5vw;
   }
@@ -82,8 +105,9 @@
   .HamburgerMenu.menu {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: left;
+
     width: 100vw;
     margin: 0 auto;
     margin-left: 5vw;

@@ -17,7 +17,14 @@ export default function AboutMe() {
   }
 
   return (
-    <div id="aboutme" className="AboutMe">
+    <div id="aboutme" >
+    <div className="borderOne">
+    <div className="borderTwo">
+    <div className="borderThree">
+    <div className="borderFour">
+    <div className="borderFive">
+      <div className="AboutMeContainer">
+
       <div className="AboutMeTitle">About Me</div>
       <div className="AboutMeContent">
         <div className="AboutMeDescription">
@@ -28,6 +35,13 @@ export default function AboutMe() {
           <button className="ResumeButton" onClick={handleOpenResume}>View Resume</button>
         </div>
       </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
   )
 }

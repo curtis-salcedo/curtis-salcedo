@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import React, { useState, useContext, useEffect } from 'react';
 import HamburgerMenu from './HamburgerMenu';
 import { ViewportContext } from '../ViewportContext/ViewportContext';
@@ -32,9 +31,14 @@ export default function NavBar() {
   }
 
   return (
+    <div className="borderOne">
+    <div className="borderTwo">
+    <div className="borderThree">
+    <div className="borderFour">
+    <div className="borderFive">
     <div className="NavBarContainer">
       { mobile ? (
-      <nav className="NavBar">
+        <nav className="NavBar">
         <div className={`Logo ${menu ? 'menu' : ''}`}>
           <div>CS</div>
         </div>
@@ -43,20 +47,20 @@ export default function NavBar() {
             { menu ? (
             <>
               <div onClick={() => toggleMenu(menu)}>
-                <GiCancel style={{ height: '9vmin', width: '9vmin', color: 'white' }} />
+                <GiCancel style={{ height: '9vmin', width: '9vmin', color: 'var(--color-3)' }} />
               </div>
             </>
             ) : (
               <div  onClick={() => toggleMenu(menu)}>
-                <GiHamburgerMenu style={{ height: '9vmin', width: '9vmin', color: 'white' }} />
+                <GiHamburgerMenu style={{ height: '9vmin', width: '9vmin', color: 'var(--color-3)' }} />
               </div>
             )}
           </div>
         </nav>
 
         ) : (
-
-        <nav className="NavBar">
+          
+          <nav className="NavBar">
 
           <div className="Logo">
             <div>CS</div>
@@ -79,7 +83,11 @@ export default function NavBar() {
           <HamburgerMenu />
         </div>
         }
-
+    </div>  
+    </div>  
+    </div>  
+    </div>  
+    </div>  
     </div>
   )
 }

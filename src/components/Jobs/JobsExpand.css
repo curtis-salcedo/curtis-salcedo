@@ -6,12 +6,12 @@
   display: flex;
   flex-direction: column;
   border-radius: 1vmin;
-  border: solid 1px navy;
+  border: solid 1px var(--color-1);
   cursor: pointer;
 }
 
 .JobContainer:hover {
-  background-color: var(--accent-color-1);
+  border: var(--color-1) 4px solid;
 }
 
 .JobCardTop {
@@ -59,10 +59,9 @@
   height: 20vh;
   width: 20vw;
   text-align: center;
-  border: solid navy 1px;
+  border: solid var(--color-1) 1px;
   border-radius: 1vmin;
   padding: .5vw;
-  background-color: whitesmoke;
 }
 
 .ExperienceTitle {
@@ -83,7 +82,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 1vmin;
-    border: solid 1px navy;
+    border: solid .5vmin var(--color-1);
     cursor: pointer;
     margin: 0 auto;
   }
@@ -96,6 +95,9 @@
     height: 8vh;
   }
   
+  .JobContainer:hover {
+    border: solid .5vmin var(--color-1);
+  }
   
   .JobCardTop {
     text-align: left;
@@ -146,10 +148,6 @@
     width: auto;
     margin: 0 auto;
     margin-top: .25vh;
-  }
-  
-  .ExperienceTitle {
-    display: none;
   }
 
   .JobDate {

@@ -25,7 +25,7 @@ h1 {
   font-size: 8vmin;
   text-align: center;
   background-image: linear-gradient(#ffd700, red, #ffd700);
-  background-size: 100%;
+  background-size: 100vw;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: bounceInDown 2s;

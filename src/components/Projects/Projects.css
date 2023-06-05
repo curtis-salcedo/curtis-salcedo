@@ -1,40 +1,84 @@
-.projectCard {
-  background-color: white;
-  border: var(--primary-color) .25vmin solid;
-  width: 30vw;
-  height: 30vh;
+.ProjectCard {
   display: flex;
   flex-direction: column;
-  margin: 1vh;
-  padding: 1vh;
+  margin: 10px;
+  border: var(--color-1) 2px solid;
+  width: 275px;
+  height: 350px;
+  border-radius: .5vmin;
 }
 
-.projectTitle {
-  font-size: x-large;
+.ProjectImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ProjectName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
-  margin-top: 2vmin;
+  height: 75px;
+  border-bottom: var(--color-1) 1px solid;
 }
 
-.projectDescription {
-  font-size: medium;
-  margin-top: 2vh;
-  text-align: center;
+.ProjectDescription{
+  align-items: stretch;
+  font-size: 20px;
+  height: 175px;
+  padding: 8px;
 }
 
-.projectFooter {
+.ProjectButtons {
   display: flex;
   justify-content: space-around;
-  margin-top: auto;
-  margin-bottom: 2vh;
+  align-items: center;
+  height: 50px;
+  border-bottom: var(--color-1) 1px solid;
+}
+
+.ProjectButtons button {
+  border-radius: .5vmin;
+  height: 30px;
+  width: 120px;
+  border: none;
+  background-color: var(--color-1);
+  color: white;
+}
+
+.ProjectStack {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.ProjectStack img {
+  height: 30px;
+  width: 30px;
 }
 
 @media (max-width: 940px) {
-  .projectCard {
+  .ProjectCard {
+    border: var(--color-1) .25vmin solid;
+    border-radius: 2vmin;
+    width: 275px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    border-radius: 2vmin;
-    width: 80vw;
+    margin: 3vmin;
+  }
+  
+  .ProjectImage img {
+    display: none;
+  }
+
+  .ProjectDescription{
+    font-size: 18px;
+    text-align: center;
   }
 
 }

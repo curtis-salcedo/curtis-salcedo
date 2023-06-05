@@ -1,17 +1,20 @@
-.portfolioContainer {
+.PortfolioContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 2em;
 }
 
-.projectContainer {
+.ProjectContainer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
 @media (max-width: 940px) {
-  .portfolioContainer {
+  .PortfolioContainer {
     background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
@@ -21,7 +24,7 @@
     overflow-x: auto;
   }
 
-  .projectContainer {
+  .ProjectContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

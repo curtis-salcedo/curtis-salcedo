@@ -14,7 +14,7 @@ export default function ContactForm() {
             <input type="text" name="name" placeholder='Your Name' />
             <input type="email" name="email" placeholder='Your Email' />
           </div>
-          <textarea className='ContactMessage' rows='4' style={{resize:'none'}} type="text" name="message" placeholder='Type your message here'/>
+          <textarea className='ContactMessage' rows='6' style={{resize:'none'}} type="text" name="message" placeholder='Type your message here'/>
 
         </div>
 
