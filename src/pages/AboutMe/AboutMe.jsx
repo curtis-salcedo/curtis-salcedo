@@ -31,8 +31,8 @@ export default function AboutMe() {
           <p>I'm a skilled professional specializing in full stack development. With a strong background and experience in creating impactful solutions using a wide range of technologies, I am passionate about delivering user-centric and scalable applications. I am currently seeking a full-time position where I can contribute my expertise and collaborate on exciting projects. Let's discuss how I can add value to your team.</p>
         </div>
         <div className="AboutMeButtons">
-          <button className="PortfolioButton" onClick={handleViewWorks}>View Works</button>
-          <button className="ResumeButton" onClick={handleOpenResume}>View Resume</button>
+          <button className="PortfolioButton" onClick={handleViewWorks}>Works</button>
+          <button className="ResumeButton" onClick={handleOpenResume}>Resume</button>
         </div>
       </div>
       </div>

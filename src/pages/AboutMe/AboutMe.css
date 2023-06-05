@@ -6,6 +6,7 @@
   width: 940px;
   height: 500px;
   margin: 0 auto;
+  margin-top: 2vh;
 }
 
 .AboutMeContent {
@@ -81,6 +82,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
+    width: 85vw;
   }
 
   .AboutMeButtons {
@@ -96,6 +98,7 @@
     background-color: var(--color-1);
     border: none;
     color: white;
+    font-size: 6vmin;
   }
   
   .ResumeButton {
@@ -105,5 +108,6 @@
     background-color: var(--color-1);
     border: none;
     color: white;
+    font-size: 6vmin;
   }
 }

@@ -34,11 +34,9 @@
     justify-content: space-between;
     background: none;
     border-radius: 2vmin;
-    margin: .25em;
     width: 20em;
-    height: 5em;
-    background-color: white;
-    border: 1px solid black;
+    height: 9vh;
+    border: .5vmin solid var(--color-1);
   }
 
   .icon {

@@ -4,8 +4,14 @@
   margin: 10px;
   border: var(--color-1) 2px solid;
   width: 275px;
-  height: 350px;
+  height: 450px;
   border-radius: .5vmin;
+}
+
+.ProjectImage {
+  height: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .ProjectImage img {
@@ -28,7 +34,7 @@
 .ProjectDescription{
   align-items: stretch;
   font-size: 20px;
-  height: 175px;
+  height: 145px;
   padding: 8px;
 }
 
@@ -66,14 +72,14 @@
     border: var(--color-1) .25vmin solid;
     border-radius: 2vmin;
     width: 275px;
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     margin: 3vmin;
   }
   
   .ProjectImage img {
-    display: none;
+    
   }
 
   .ProjectDescription{

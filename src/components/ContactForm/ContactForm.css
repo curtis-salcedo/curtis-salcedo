@@ -3,10 +3,29 @@
   flex-direction: column;
   background-color: var(--color-5);
   padding: 16px;
-  width: 500px;
-  height: 400px;
+  width: 600px;
   margin: 0 auto;
   border-radius: 1vmin;
+}
+
+.ContactFooterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.ContactFooterContainer div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1vh;
+  cursor: pointer;
+}
+
+.ContactFooterContainer div svg {
+  margin-right: .5vw;
 }
 
 .ContactFormTitle {
@@ -30,7 +49,7 @@
 }
 
 .ContactFormName input {
-  width: 220px;
+  width: 250px;
 }
 
 input, textarea {
@@ -63,6 +82,22 @@ input, textarea {
   border: none;
   background-color: var(--color-1);
   color: white;
+}
+
+.FooterIconLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+#linkedin {
+  margin-right: .5vw;
+}
+
+#github {
+  margin-left: .5vw;
 }
 
 @media (max-width: 940px) {

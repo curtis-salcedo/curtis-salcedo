@@ -56,13 +56,8 @@ export default function Footer() {
     <>
     <div id="contact" className="FooterContainer">
       <div className="ContactContainer">
-
         <div className="ContactInfo">
-
           <div className='FooterMainInfo'>
-            <div className='FooterName'>Contact me now!</div>
-            <div className='FooterContactMeNow'>Contact Me Now!</div>
-            
             { mobile ? (
                 <div className="MobileFooterIcons">
                   <div className="ContactEmail">
@@ -105,19 +100,6 @@ export default function Footer() {
                 <div className="DesktopFooterContainer">
                   <div className="DesktopFooterContactForm">
                     <ContactForm />
-                  </div>
-                  <div>
-                    <div className="ContactLocation" onClick={handleLocationClick}><BiCurrentLocation /> Westminster, CO</div>
-                    <div className="ContactEmail" onClick={handleEmailClick}><BiEnvelope /> curtismsalcedo@gmail.com</div>
-                    <div className="ContactPhone" onClick={handlePhoneClick}><BiPhone /> | <BsChatText />  (720) 772-1689</div>
-                    <div className="FooterIconLinks">
-                    <IconContext.Provider value={{ size: '2em', color: 'blue', margin: '.25vmin' }}>
-                      <a href="https://www.linkedin.com/in/curtis-salcedo" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
-                    </IconContext.Provider>
-                    <IconContext.Provider value={{ size: '2em', color: 'black' }}>
-                      <a href="https://github.com/curtis-salcedo" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
-                    </IconContext.Provider>
-                    </div>
                   </div>
                 </div>
               </>

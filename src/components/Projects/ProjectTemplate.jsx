@@ -38,14 +38,15 @@ export default function ProjectTemplate() {
     { projects.map( (project, index) => (
       <div className="ProjectCard">
 
-        {/* { project.image && (
-          <div className="ProjectImage"><img src={project.image} alt="" /></div>
-        )} */}
 
         <div className="ProjectName">{project.name}</div>
 
         <div className="ProjectDescription">{project.description}</div>
 
+        { project.image && (
+          <div className="ProjectImage"><img src={project.image} alt="" /></div>
+        )}
+        
         <div className="ProjectButtons">
           { project.github && ( 
             <div className="ProjectGithub"> 
