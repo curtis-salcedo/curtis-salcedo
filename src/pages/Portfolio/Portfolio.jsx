@@ -1,7 +1,3 @@
-import GolfBuddy from '../../components/Projects/GolfBuddy';
-import ModernMenus from '../../components/Projects/ModernMenus';
-import ApplicationTracker from '../../components/Projects/ApplicationTracker';
-import MarketLocale from '../../components/Projects/MarketLocale';
 import ProjectTemplate from '../../components/Projects/ProjectTemplate';
 import "./Portfolio.css"
 

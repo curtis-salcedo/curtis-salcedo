@@ -26,6 +26,14 @@ const projects = [
     stack: ['JavaScript', 'HTML', 'CSS', 'MongoDB', 'Express', 'React', 'Node', 'Heroku'],
   },
   {
+    name: 'Dragon Slots',
+    description: 'A simple javascript web based slot machine game',
+    image: 'https://i.imgur.com/M618lVRl.png',
+    link: 'https://curtis-salcedo.github.io/Slot-Machine/',
+    github: 'https://github.com/curtis-salcedo/slot-machine',
+    stack: ['JavaScript', 'HTML', 'CSS'],
+  },
+  {
     name: 'Application Tracker',
     description: 'A linux application to track your job applications',
     image: '',
