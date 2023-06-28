@@ -41,6 +41,14 @@ const projects = [
     github: '',
     stack: ['Python', 'Django', 'CSS'],
   },
+  {
+    name: 'Inventory Manager',
+    description: 'A web application to track retail inventory with exportable reports',
+    image: '',
+    link: '',
+    github: 'https://github.com/curtis-salcedo/inventory',
+    stack: ['Python', 'Django', 'JavaScript', 'React', 'Bootstrap', 'PostgreSQL'],
+  },
 
 ]
 

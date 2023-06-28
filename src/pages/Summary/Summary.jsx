@@ -2,11 +2,13 @@ import "./Summary.css"
 
 export default function Summary() {
   function handleHireMeClick() {
-    const emailAddress = 'curtismsalcedo@gmail.com';
-    const emailSubject = 'Hello Curtis!';
-    const emailBody = 'Hi Curtis, my name is ________ and I wanted to connect with you.';
-    const emailLink = `mailto:${emailAddress}?subject=${emailSubject}&body=${emailBody}`;
-    window.location.href = emailLink;
+    // const emailAddress = 'curtismsalcedo@gmail.com';
+    // const emailSubject = 'Hello Curtis!';
+    // const emailBody = 'Hi Curtis, my name is ________ and I wanted to connect with you.';
+    // const emailLink = `mailto:${emailAddress}?subject=${emailSubject}&body=${emailBody}`;
+    // window.location.href = emailLink;
+    const contactElement = document.getElementById('contact');
+    contactElement.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
   return (
     <>
