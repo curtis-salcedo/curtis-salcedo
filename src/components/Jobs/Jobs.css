@@ -108,13 +108,14 @@
   .JobTitle {
     font-size: 1.75em;
   }
-  
-  .JobDescriptions {
-    width: 100%;
+
+  .JobLocation {
+    text-align: left;
   }
   
-  .JobDescriptions li {
-    
+  .JobDescriptions {
+    max-width: 95vw;
+    margin-right: 1rem;
   }
 
   .JobDate {

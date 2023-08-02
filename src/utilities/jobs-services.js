@@ -37,10 +37,10 @@ const jobs = [
     date_start: "10/2022",
     date_end: "03/2023",
     descriptions: [
-      "Managed and led a portfolio of 16 retail store locations, ensuring exceptional customer service and achieving business targets.",
-      "Implemented modern inventory technologies to enhance efficiency and reduce costs.",
-      "Designed and implemented location-specific SOPs, resulting in improved performance metrics and increased profitability.",
-      "Led and developed a diverse team of 50+ members, fostering a collaborative and inclusive work culture.",
+      "Managed and led a team of dispatchers, optimizing daily loadouts and ensuring timely and efficient scheduling of service calls.",
+      "Streamlined dispatch operations through the implementation of process improvements and automation scripts, resulting in increased productivity and customer satisfaction.",
+      "Conducted regular inspections of jobsites, maintaining high standards of quality and safety compliance, while ensuring that customer requirements were met.",
+      "Facilitated comprehensive training for dispatch staff, equipping them with the necessary tools and expertise to handle service requests professionally and effectively.",
     ],
     image: "path/to/image2.jpg",
     link: "https://example.com/dispatchmanager"

@@ -78,6 +78,7 @@
     justify-content: center;
     height: auto;
     margin-top: 1rem;
+    width: auto;
   }
 
   .SummaryImageContainer img {

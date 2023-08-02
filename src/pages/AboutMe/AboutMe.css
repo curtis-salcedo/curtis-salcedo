@@ -70,6 +70,7 @@
     flex-flow: column;
     justify-content: space-between;
     margin: 0 auto;
+    width: 95vw;
   }
 
   .AboutMeTitle {
@@ -93,8 +94,8 @@
   
   .PortfolioButton {
     margin: 0 auto;
-    width: 40vw;
-    height: 13vmin;
+    width: 30vw;
+    height: 3rem;
     background-color: var(--color-1);
     border: none;
     color: white;
@@ -103,8 +104,8 @@
   
   .ResumeButton {
     margin: 0 auto;
-    width: 40vw;
-    height: 13vmin;
+    width: 30vw;
+    height: 3rem;
     background-color: var(--color-1);
     border: none;
     color: white;
