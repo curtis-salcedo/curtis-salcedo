@@ -34,8 +34,8 @@
     justify-content: space-between;
     background: none;
     border-radius: 2vmin;
-    width: 20em;
-    height: 9vh;
+    width: 95vw;
+    height: 5em;
     border: .5vmin solid var(--color-1);
   }
 

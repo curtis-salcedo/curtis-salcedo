@@ -1,67 +1,123 @@
-.jobContainer {
+.JobCard {
+  width: 60vw
+}
+
+.JobContainer {
   display: flex;
   flex-direction: column;
-  border: solid 1px navy;
-  border-radius: 1vmin;
-  width: 60vw;
-  height: 60vh;
-  margin: 0 auto;
-  background-color: white;
 }
 
-.jobTitle {
-  font-size: xx-large;
-  font-weight: bold;
-  text-align: center;
+.JobCard:hover {
+  background-color: var(--color-3);
 }
 
-.jobCompany {
-  font-size: x-large;
-  text-align: center;
-  margin-bottom: 1vmin;
-}
-
-.jobSubTitle {
+.JobCard {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-size: medium;
+  flex-direction: column;
+  border: 2px solid var(--color-1);
+  border-radius: 1vmin;
+  cursor: pointer;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
-.jobCard {
+.JobCardTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1vh;
+}
+
+.JobCardBottom {
+  display: grid;
+  font-size: 24px;
+  grid-template-columns: 3fr 2fr 3fr;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.JobTitle {
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+.JobDescriptions {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  padding: 2vmin;
-  height: 70vh;
-  font-size: medium;
+  align-items: center;
+  max-width: 70vw;
+  margin-bottom: 1em;
 }
 
-.jobCard div {
+.JobDescriptions div {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  margin: 1vmin;
-  margin: 0 auto;
-  height: 18vh;
-  width: 18vw;
-  text-align: center;
-  border: solid navy 1px;
+  height: auto;
+  width: 90%;
+  text-align: left;
   border-radius: 1vmin;
-  padding: 5px;
-  font-size: medium;
-  background-color: whitesmoke;
 }
+
+.ExperienceTitle {
+  font-size: 4vmin;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
 
 @media (max-width: 940px) {
-  .jobContainer {
-    width: 100vw;
-    height: 30vh;
-    justify-content: space-between;
+  .ExperienceContainer {
+    margin-top: 5vh;
   }
 
-  .jobCard {
-    font-size: auto;
+  .JobContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+  }
+
+  .JobCard {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--color-1);
+    border-radius: 1vmin;
+    cursor: pointer;
+    margin: .5em;
+    width: 95vw;
+  }
+  
+  .JobCardTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .JobCardBottom {
+    display: grid;
+    font-size: 1.2em;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .JobTitle {
+    font-size: 1.75em;
+  }
+  
+  .JobDescriptions {
+    width: 100%;
+  }
+  
+  .JobDescriptions li {
+    
+  }
+
+  .JobDate {
     display: none;
   }
 }

@@ -37,10 +37,10 @@ const icons = [
     name: 'MongoDB',
     src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg',
   },
-  {
-    name: 'AWS',
-    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
-  },
+  // {
+  //   name: 'AWS',
+  //   src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
+  // },
   {
     name: 'PostgreSQL',
     src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg',

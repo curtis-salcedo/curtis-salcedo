@@ -17,16 +17,22 @@
 
 @media (max-width: 940px) {
   .App {
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
   }
 
   .SectionTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-    margin-top: 2vh;
-    margin-bottom: 3vh;
+  }
+
+  .AppCont {
+    overflow: hidden;
   }
 
 }

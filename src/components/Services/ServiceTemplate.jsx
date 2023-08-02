@@ -1,8 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import jobs from "../../utilities/jobs";
 import "./JobsExpand.css"
 
-export default function DHPace() {
+export default function ServiceTemplate() {
   const [show, setShow] = useState(false)
+  const [activeJobs, setActiveJobs] = useState(jobs)
+
+  useEffect(() => {
+    setActiveJobs(activeJobs)
+  }, [activeJobs]);
 
   function handleShowDetails() {
     if (show === true) {
@@ -13,19 +19,19 @@ export default function DHPace() {
   }
 
   return (
-  <>
+    <>
     <div className="JobContainer">      
 
       <div onClick={() => handleShowDetails()} className="JobCard">
 
         <div className="JobCardTop">
-          <div className="JobTitle">Dispatch Manager</div>
+          <div className="JobTitle">Director of Operations</div>
         </div>
 
         <div className="JobCardBottom">
-          <div className="JobCompany">DH Pace</div>
+          <div className="JobCompany">ink! Coffee Company</div>
           <div className="JobLocation">Denver, CO</div>
-          <div className="JobDate">10/2022 - 03/2023</div>
+          <div className="JobDate">06/2015 - 10/2022</div>
         </div>
       </div>
 

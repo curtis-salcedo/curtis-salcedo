@@ -2,6 +2,22 @@
 
 const projects = [
   {
+    name: 'Inventory Buddy',
+    description: 'A web application to track retail inventory with exportable reports',
+    image: '',
+    link: '',
+    github: 'https://github.com/curtis-salcedo/inventory',
+    stack: ['Python', 'Django', 'JavaScript', 'React', 'Bootstrap', 'PostgreSQL'],
+  },
+  {
+    name: 'Modern Menus',
+    description: 'A web application to create customizable digital menu boards',
+    image: 'https://i.imgur.com/z2kQpnEl.png',
+    link: 'https://modern-menus-2023.herokuapp.com/',
+    github: 'https://github.com/curtis-salcedo/modern-menus',
+    stack: ['JavaScript', 'HTML', 'CSS', 'MongoDB', 'Express', 'React', 'Node', 'Heroku'],
+  },
+  {
     name: 'Golf Buddy',
     description: 'A web application to track your golf scores',
     image: 'https://i.imgur.com/Z53q3g4l.png',
@@ -18,14 +34,6 @@ const projects = [
     stack: ['Python', 'Django', 'CSS', 'bit.io', 'Heroku'],
   },
   {
-    name: 'Modern Menus',
-    description: 'A web application to create customizable digital menu boards',
-    image: 'https://i.imgur.com/z2kQpnEl.png',
-    link: 'https://modern-menus-2023.herokuapp.com/',
-    github: 'https://github.com/curtis-salcedo/modern-menus',
-    stack: ['JavaScript', 'HTML', 'CSS', 'MongoDB', 'Express', 'React', 'Node', 'Heroku'],
-  },
-  {
     name: 'Dragon Slots',
     description: 'A simple javascript web based slot machine game',
     image: 'https://i.imgur.com/M618lVRl.png',
@@ -40,14 +48,6 @@ const projects = [
     link: '',
     github: '',
     stack: ['Python', 'Django', 'CSS'],
-  },
-  {
-    name: 'Inventory Manager',
-    description: 'A web application to track retail inventory with exportable reports',
-    image: '',
-    link: '',
-    github: 'https://github.com/curtis-salcedo/inventory',
-    stack: ['Python', 'Django', 'JavaScript', 'React', 'Bootstrap', 'PostgreSQL'],
   },
 
 ]

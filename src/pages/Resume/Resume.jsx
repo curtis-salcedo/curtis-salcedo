@@ -1,13 +1,18 @@
-import React from 'react';
-import InkCoffee from '../../components/Jobs/InkCoffee';
-import Adt from '../../components/Jobs/Adt';
-import DHPace from '../../components/Jobs/DHPace';
+import React, { useState } from 'react';
+import Jobs from '../../components/Jobs/Jobs';
 // import Carousel from 'react-bootstrap/Carousel';
 import "./Resume.css";
+import {
+  Button,
+  Fade,
+} from 'reactstrap';
 
 export default function Resume() {
+  const [ isOpen, setIsOpen ] = useState(false);
+  const [ activeJob, setActiveJob ] = useState(null);
+
   return (
-    <>
+
     <div className="borderOne">
     <div className="borderTwo">
     <div className="borderThree">
@@ -16,34 +21,13 @@ export default function Resume() {
     <div className="SectionTitle">Experiences</div>        
     <div id="experience" className="ExperienceContainer">
       <div className="ResumeContainer">
-        {/* <div className="ResumeComponents">
-          <DHPace />
-        </div> */}
-        <div className="ResumeComponents">
-          <InkCoffee />
-        </div>
-        <div className="ResumeComponents">
-          <Adt />
-        </div>
+        <Jobs />
       </div>
-      {/* <Carousel variant="dark">
-        <Carousel.Item>
-          <InkCoffee />
-        <div className="resumeContainer">
-        </div>
-        </Carousel.Item>
-        <Carousel.Item>
-        <div className="resumeContainer">
-          <Adt />
-        </div>
-        </Carousel.Item>
-      </Carousel> */}
     </div>
     </div>
     </div>
     </div>
     </div>
     </div>
-    </>
   );
 }

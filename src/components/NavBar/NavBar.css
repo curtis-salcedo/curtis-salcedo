@@ -1,3 +1,10 @@
+.NavBarContainer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-3);
+  width: 100vw;
+}
+
 .NavBar {
   display: flex;
   flex-direction: row;
@@ -5,8 +12,7 @@
   align-items: center;
   top: 0;
   z-index: 999;
-  margin-right: 50px;
-  margin-left: 100px;
+  width: 90vw;
 }
 
 .borderOne {
@@ -35,6 +41,7 @@
   color: var(--color-1);
   font-size: 3em;
   font-weight: bold;
+  margin-left: 32px;
 }
 
 .NavLinks a {
@@ -48,12 +55,21 @@
 }
 
 @media (max-width: 940px) {
+  .NavBarContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 auto;
+  }
+
   .NavBar {
     background-color: var(--color-1);
     display: flex;
     width: 100vw;
-    height: 10vh;
-    margin: 0;
+    height: 4em;
+    position: static;
+    top: 0;
   }
   
   .Logo {

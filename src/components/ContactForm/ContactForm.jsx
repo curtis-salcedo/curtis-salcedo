@@ -29,19 +29,23 @@ export default function ContactForm() {
   return (
     <div className='ContactFormContainer'>
       <div className="ContactFooterContainer">
-        <div className="ContactLocation" onClick={handleLocationClick}><BiCurrentLocation /> Westminster, CO</div>
-        <div className="ContactEmail" onClick={handleEmailClick}><BiEnvelope /> curtismsalcedo@gmail.com</div>
-        <div className="ContactPhone" onClick={handlePhoneClick}><BiPhone />(720) 772-1689</div>
+        <div className="ContactFormLeft">
+          <div className="ContactLocation" onClick={handleLocationClick}><BiCurrentLocation /> Westminster, CO</div>
+          <div className="ContactEmail" onClick={handleEmailClick}><BiEnvelope /> curtismsalcedo@gmail.com</div>
+          <div className="ContactPhone" onClick={handlePhoneClick}><BiPhone />(720) 772-1689</div>
+        </div>
+        <div className="ContactFormRight">
+          <div className="FooterIconLinks">
+            <IconContext.Provider value={{ size: '2.5em', color: 'blue' }}>
+              <a id="linkedin" href="https://www.linkedin.com/in/curtis-salcedo" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
+            </IconContext.Provider>
+            <IconContext.Provider value={{ size: '2.5em', color: 'black' }}>
+              <a id="github" href="https://github.com/curtis-salcedo" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
+            </IconContext.Provider>
+          </div>
+        </div>
       </div>
 
-      <div className="FooterIconLinks">
-        <IconContext.Provider value={{ size: '2em', color: 'blue' }}>
-          <a id="linkedin" href="https://www.linkedin.com/in/curtis-salcedo" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
-        </IconContext.Provider>
-        <IconContext.Provider value={{ size: '2em', color: 'black' }}>
-          <a id="github" href="https://github.com/curtis-salcedo" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
-        </IconContext.Provider>
-      </div>
 
       <form className='ContactForm' action="https://getform.io/f/1b989789-3008-47a5-95e4-39216774a434" method="POST">
       {/* <div className='ContactFormTitle'>Contact Me</div> */}
