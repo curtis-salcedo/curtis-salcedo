@@ -6,6 +6,7 @@ import { IconContext } from 'react-icons';
 import { ViewportContext } from '../ViewportContext/ViewportContext';
 
 import "./Footer.css"
+import { Button } from 'react-bootstrap';
 
 export default function Footer() {
   const { width, height } = useContext(ViewportContext);
@@ -55,6 +56,10 @@ export default function Footer() {
   return (
     <>
     <div id="contact" className="FooterContainer">
+      <div className="LeftFooter">
+        <h4>More About Me</h4>
+        <Button className="FooterTravels">Travels</Button>
+      </div>
       <div className="ContactContainer">
         <div className="ContactInfo">
           <div className='FooterMainInfo'>

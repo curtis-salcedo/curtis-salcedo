@@ -18,6 +18,14 @@ const projects = [
     stack: ['JavaScript', 'HTML', 'CSS', 'MongoDB', 'Express', 'React', 'Node', 'Heroku'],
   },
   {
+    name: 'Ayym',
+    description: 'Part of the Q3 Hackathon, a web application to provide financial literacy to young adults',
+    image: '',
+    link: 'https://ayym-3bbe92ba31d6.herokuapp.com/',
+    github: 'https://github.com/curtis-salcedo/ayym',
+    stack: ['JavaScript', 'HTML', 'CSS', 'MongoDB', 'Express', 'React', 'Node', 'Heroku'],
+  },
+  {
     name: 'Golf Buddy',
     description: 'A web application to track your golf scores',
     image: 'https://i.imgur.com/Z53q3g4l.png',
