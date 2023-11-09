@@ -25,7 +25,7 @@ export default function Resume() {
     <div className="borderThree">
     <div className="borderFour">
     <div className="borderFive">
-    <div className="SectionTitle">Portfolio</div> 
+    <div className="SectionTitle">Projects</div> 
     <div className="FilterIconsContainer">
       <div className="FilterIconContainer">
       <Button className="button" onClick={(e) => handleClick(e, 'ALL')}>View All</Button>

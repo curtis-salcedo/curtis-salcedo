@@ -1,4 +1,4 @@
-.ProjectCard {
+.project-card {
   display: flex;
   flex-direction: column;
   margin: 10px;
@@ -7,26 +7,16 @@
   height: 450px;
   border-radius: .5vmin;
   position: relative;
+  justify-content: space-between;
 }
 
 .ProjectContent {
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
 
-.ProjectImage {
-  display: flex;
-  justify-content: center;
-}
 
-.ProjectImage img {
-  width: 265px;
-  height: 100%;
-  object-fit: cover;
-}
-
-.ProjectName {
+.project-name {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,23 +24,54 @@
   font-weight: bold;
   text-align: center;
   height: 75px;
-  border-bottom: var(--color-1) 1px solid;
+  width: 100%;
+  margin: 0 auto;
+  background-color: none;
 }
 
-.ProjectDescription{
-  align-items: stretch;
-  font-size: 20px;
-  height: 145px;
-  padding: 8px;
+.project-description {
+
+
 }
 
-.ProjectButtons {
+
+.project-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+.project-buttons > .btn {
+  background-color: gray;
+  width: 100px;
+  height: 40px;
+}
+
+.project-stack {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  align-items: bottom;
   height: 50px;
-  border-bottom: var(--color-1) 1px solid;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: var(--color-1) 1px solid;
+  /* background-color: green; */
+}
+
+.project-stack img {
+  height: 30px;
+  width: 30px;
 }
 
 .ProjectButtons button {
@@ -62,22 +83,8 @@
   color: white;
 }
 
-.ProjectStack {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 50px;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
 
-.ProjectStack img {
-  height: 30px;
-  width: 30px;
-}
 
 @media (max-width: 940px) {
   .ProjectCard {
