@@ -57,6 +57,10 @@ const icons = [
     name: 'Heroku',
     src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original-wordmark.svg',
   },
+  {
+    name: 'MUI',
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg',
+  },
 ]
 
 export default icons

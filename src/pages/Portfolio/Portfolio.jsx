@@ -26,22 +26,22 @@ export default function Resume() {
     <div className="borderFour">
     <div className="borderFive">
     <div className="SectionTitle">Portfolio</div> 
+    <div className="FilterIconsContainer">
+      <div className="FilterIconContainer">
+      <Button className="button" onClick={(e) => handleClick(e, 'ALL')}>View All</Button>
+      { iconList ? 
+      iconList.map((i) => (
+          <div className="FilterIconImageContainer">
+            <img key={i.name} src={i.src} alt={i.name} onClick={(e) => handleClick(e, i.name)}/>    
+          </div>
+          ))
+          :null }
+      </div>
+    </div>
     <div id="portfolio" className="PortfolioContainer">
       <div className="FeaturedProjectContainer">
       </div>
 
-      <div>
-        <div className="FilterIconContainer">
-        <Button className="button" onClick={(e) => handleClick(e, 'ALL')}>View All</Button>
-        { iconList ? 
-        iconList.map((i) => (
-            <div className="FilterIconImageContainer">
-              <img key={i.name} src={i.src} alt={i.name} onClick={(e) => handleClick(e, i.name)}/>    
-            </div>
-            ))
-            :null }
-        </div>
-      </div>
 
       <div className="ProjectContainer">
         <ProjectTemplate activeIcon={activeIcon} />

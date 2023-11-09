@@ -1,18 +1,13 @@
-.servicesContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  margin-bottom: 2em;
-}
-
-.carousel-container {
-  overflow: hidden;
-}
-
 .devicon {
   height: 50px;
   width: 50px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 @media (max-width: 940px) {
@@ -33,4 +28,25 @@
     
   }
 
+}
+
+/* Add breakpoints as needed */
+@media (max-width: 767px) {
+  /* For mobile screens, enable horizontal scrolling */
+  .skill-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  /* Adjust card size for mobile */
+  .serviceCard {
+    width: 300px; /* Or adjust as needed */
+  }
+}
+
+/* Additional styling for larger screens */
+@media (min-width: 768px) {
+  .serviceCard {
+    /* Add styling for desktop view, if necessary */
+  }
 }

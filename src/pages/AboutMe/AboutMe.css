@@ -32,7 +32,7 @@
 
 .AboutMeButtons {
   display: flex;
-  justify-content: left;
+  justify-content: space-evenly;
   margin-top: 2vmin;
 }
 
@@ -40,7 +40,6 @@
   background-color: var(--color-1);
   color: white;
   border: none;
-  margin-right: 1vmin;
   width: 175px;
   height: 60px;
 }
@@ -49,7 +48,14 @@
   background-color: var(--color-1);
   color: white;
   border: none;
-  margin-left: 1vmin;
+  width: 175px;
+  height: 60px;
+}
+
+.GithubButton {
+  background-color: var(--color-1);
+  color: white;
+  border: none;
   width: 175px;
   height: 60px;
 }
@@ -88,27 +94,36 @@
 
   .AboutMeButtons {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
   }
   
   .PortfolioButton {
     margin: 0 auto;
-    width: 30vw;
-    height: 3rem;
+    width: 80px;
+    height: 50px;
     background-color: var(--color-1);
     border: none;
     color: white;
-    font-size: 6vmin;
+    font-size: 20px;
   }
   
   .ResumeButton {
     margin: 0 auto;
-    width: 30vw;
-    height: 3rem;
+    width: 80px;
+    height: 50px;
     background-color: var(--color-1);
     border: none;
     color: white;
-    font-size: 6vmin;
+    font-size: 20px;
+  }
+
+  .GithubButton {
+    margin: 0 auto;
+    width: 80px;
+    height: 50px;
+    background-color: var(--color-1);
+    border: none;
+    color: white;
+    font-size: 20px;
   }
 }

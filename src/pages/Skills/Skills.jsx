@@ -1,13 +1,16 @@
-import DataAnalysis from "../../components/Services/DataAnalysis"
-import FullStack from "../../components/Services/FullStack"
-import WebDevelopment from "../../components/Services/WebDevelopment"
-import DataEngineering from "../../components/Services/DataEngineering"
-import FrontEnd from "../../components/Services/FrontEnd"
-import TeamWork from "../../components/Services/TeamWork"
+import React from 'react';
+import "./Skills.css";
 
-import "./Skills.css"
+import SkillTemplate from "../../components/Services/SkillTemplate"
+import skills from "../../utilities/skills-service"
+
+import {
+  Container,
+} from "reactstrap"
 
 export default function Skills() {
+
+  console.log(skills)
   return (
     <>
     <div className="borderOne">
@@ -15,13 +18,15 @@ export default function Skills() {
     <div className="borderThree">
     <div className="borderFour">
     <div className="borderFive">
+
     <div className="SectionTitle">Talents</div> 
-    <div id="services" className="servicesContainer">
-      <FullStack />
-      <WebDevelopment />
-      <FrontEnd />
-      <TeamWork />
-    </div>
+    <Container className="services-container">
+      { skills ? 
+      skills.map((service) => {
+        return <SkillTemplate service={service} />
+      }) : null }
+    </Container>
+
     </div>
     </div>
     </div>

@@ -1,5 +1,13 @@
 import "./Summary.css"
 
+import React from "react";
+
+import {
+  Container,
+  Row,
+  Button,
+} from 'reactstrap';
+
 export default function Summary() {
   function handleHireMeClick() {
     // const emailAddress = 'curtismsalcedo@gmail.com';
@@ -20,9 +28,12 @@ export default function Summary() {
           <button className="HireMeButton" onClick={handleHireMeClick}>Hire Me</button>
         </div>
       </div>
-      <div className="SummaryImageContainer">
+      {/* <div className="SummaryImageContainer">
         <img src="https://i.imgur.com/cMijoSw.png" />
-      </div>
+      </div> */}
+      <Button color={`--image-opaque`} className="SummaryImageContainer">
+        <img src="https://i.imgur.com/cMijoSw.png" />
+      </Button>
     </div>
 
     </>

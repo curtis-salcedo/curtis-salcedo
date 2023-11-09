@@ -2,11 +2,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
-  height: 300px;
-  border-radius: 1vmin;
-  margin: 2vmin;
-  padding: 4vmin;
+  align-items: center;
+  width: 350px;
+  height: 250px;
+  margin: 5px;
   border: var(--color-1) solid 2px;
 }
 
@@ -32,10 +31,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: none;
     border-radius: 2vmin;
-    width: 95vw;
-    height: 5em;
+    height: 75px;
     border: .5vmin solid var(--color-1);
   }
 

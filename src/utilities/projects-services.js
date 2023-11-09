@@ -7,7 +7,7 @@ const projects = [
     image: '',
     link: '',
     github: 'https://github.com/curtis-salcedo/inventory',
-    stack: ['Python', 'Django', 'JavaScript', 'React', 'Bootstrap', 'PostgreSQL'],
+    stack: [ 'JavaScript', 'React', 'Bootstrap', 'Python', 'Django', 'PostgreSQL' ],
   },
   {
     name: 'Modern Menus',
@@ -15,7 +15,7 @@ const projects = [
     image: 'https://i.imgur.com/z2kQpnEl.png',
     link: 'https://modern-menus-2023.herokuapp.com/',
     github: 'https://github.com/curtis-salcedo/modern-menus',
-    stack: ['JavaScript', 'HTML', 'CSS', 'MongoDB', 'Express', 'React', 'Node', 'Heroku'],
+    stack: ['JavaScript', 'MongoDB', 'Express', 'React', 'Node', 'Heroku'],
   },
   {
     name: 'Ayym',
@@ -23,7 +23,15 @@ const projects = [
     image: '',
     link: 'https://ayym-3bbe92ba31d6.herokuapp.com/',
     github: 'https://github.com/curtis-salcedo/ayym',
-    stack: ['JavaScript', 'HTML', 'CSS', 'MongoDB', 'Express', 'React', 'Node', 'Heroku'],
+    stack: ['JavaScript', 'MongoDB', 'Express', 'React', 'Node', 'Heroku'],
+  },
+  {
+    name: 'Study Buddy',
+    description: 'In progress, a web application to connect technical notes and concepts for further research',
+    image: '',
+    link: '',
+    github: 'https://github.com/curtis-salcedo/study',
+    stack: [ 'JavaScript', 'React', 'MUI', 'Python', 'Django', 'PostgreSQL' ],
   },
   {
     name: 'Golf Buddy',
@@ -31,7 +39,7 @@ const projects = [
     image: 'https://i.imgur.com/Z53q3g4l.png',
     link: 'https://golf-buddy-2023.herokuapp.com/',
     github: 'https://github.com/curtis-salcedo/golf-buddy',
-    stack: ['JavaScript', 'Express', 'Node', 'MongoDB', 'Bootstrap', 'CSS'],
+    stack: [ 'JavaScript', 'Express', 'Node', 'MongoDB', 'Bootstrap', 'CSS' ],
   },
   {
     name: 'Market Urself',
@@ -39,7 +47,7 @@ const projects = [
     image: 'https://i.imgur.com/RRwDFSdl.png',
     link: '',
     github: 'https://github.com/curtis-salcedo/market-urself',
-    stack: ['Python', 'Django', 'CSS', 'bit.io', 'Heroku'],
+    stack: [ 'CSS', 'Python', 'Django', 'CSS', 'bit.io', 'Heroku' ],
   },
   {
     name: 'Dragon Slots',
@@ -47,7 +55,7 @@ const projects = [
     image: 'https://i.imgur.com/M618lVRl.png',
     link: 'https://curtis-salcedo.github.io/Slot-Machine/',
     github: 'https://github.com/curtis-salcedo/slot-machine',
-    stack: ['JavaScript', 'HTML', 'CSS'],
+    stack: [ 'JavaScript', 'HTML', 'CSS' ],
   },
   {
     name: 'Application Tracker',
@@ -55,7 +63,7 @@ const projects = [
     image: '',
     link: '',
     github: '',
-    stack: ['Python', 'Django', 'CSS'],
+    stack: [ 'Python', 'Django', 'CSS' ],
   },
 
 ]

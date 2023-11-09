@@ -56,10 +56,10 @@ export default function Footer() {
   return (
     <>
     <div id="contact" className="FooterContainer">
-      <div className="LeftFooter">
+      {/* <div className="LeftFooter">
         <h4>More About Me</h4>
         <Button className="FooterTravels">Travels</Button>
-      </div>
+      </div> */}
       <div className="ContactContainer">
         <div className="ContactInfo">
           <div className='FooterMainInfo'>

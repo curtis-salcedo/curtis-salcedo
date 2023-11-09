@@ -33,10 +33,17 @@
 }
 
 .FilterIconContainer {
-  width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.FilterIconsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .FilterIconImageContainer {
