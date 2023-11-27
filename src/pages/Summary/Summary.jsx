@@ -24,7 +24,7 @@ export default function Summary() {
       <div className="SummaryName">
         <div className="SummaryIntro">I'm Curtis</div>
         <div className="SummaryTitle">
-          <div>Full Stack Developer</div>
+          <div>Dynamic Tech Leader with Operational Insight</div>
           <button className="HireMeButton" onClick={handleHireMeClick}>Hire Me</button>
         </div>
       </div>

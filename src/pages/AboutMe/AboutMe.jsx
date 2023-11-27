@@ -35,7 +35,7 @@ export default function AboutMe() {
       <div className="AboutMeTitle">About Me</div>
       <div className="AboutMeContent">
         <div className="AboutMeDescription">
-          <p>I am a skilled professional with a background in operations management and a focus on web development. Leveraging my experience in process improvement, I bring a strong foundation in creating impactful solutions using various methods and technologies. I am passionate about delivering results and am currently seeking a full-time position where I can contribute my expertise and collaborate with a dynamic team. Let's explore how I can add value to your organization.</p>
+          <p>I am passionate about technology, innovation, and teamwork. With a background in operations management and expertise in both web and software development, I bring a versatile skill set to every project. My strengths include identifying improvement opportunities, implementing creative solutions, and utilizing cutting-edge technologies to enhance efficiency and performance. I am dedicated to delivering transformative solutions across various areas. I thrive on collaboration and enjoy leveraging technology to drive positive change and contribute meaningfully to others' needs..</p>
         </div>
         <div className="AboutMeButtons">
           <button className="PortfolioButton" onClick={handleViewWorks}>Works</button>
